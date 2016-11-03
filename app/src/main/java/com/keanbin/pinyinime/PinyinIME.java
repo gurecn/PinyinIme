@@ -151,8 +151,7 @@ public class PinyinIME extends InputMethodService {
 
 	/**
 	 * The current IME status. 当前的输入法状态
-	 * 
-	 * @see com.android.inputmethod.pinyin.PinyinIME.ImeState
+	 *
 	 */
 	private ImeState mImeState = ImeState.STATE_IDLE;
 
@@ -1020,6 +1019,15 @@ public class PinyinIME extends InputMethodService {
 	}
 
 	/**
+	 * 清空输入框
+	 */
+	private void commitClearText() {
+		//TODO   待实现的功能
+		InputConnection ic = getCurrentInputConnection();
+		ic.deleteSurroundingText(1, 0);
+	}
+
+	/**
 	 * 设置是否显示输入拼音的view
 	 * 
 	 * @param visible
@@ -1270,10 +1278,14 @@ public class PinyinIME extends InputMethodService {
 		}
 
 		if (sKey.isUserDefKey()) {// 是用户定义的keycode
-			// 通过我们定义的软键盘的按键，切换输入法模式。
-			updateIcon(mInputModeSwitcher.switchModeForUserKey(keyCode));
-			resetToIdleState(false);
-			mSkbContainer.updateInputMode();
+			if(sKey.isPasswordKey()){
+				commitClearText();
+			} else {
+				// 通过我们定义的软键盘的按键，切换输入法模式。
+				updateIcon(mInputModeSwitcher.switchModeForUserKey(keyCode));
+				resetToIdleState(false);
+				mSkbContainer.updateInputMode();
+			}
 		} else {
 			if (sKey.isKeyCodeKey()) {// 是系统的keycode
 				KeyEvent eDown = new KeyEvent(0, 0, KeyEvent.ACTION_DOWN,

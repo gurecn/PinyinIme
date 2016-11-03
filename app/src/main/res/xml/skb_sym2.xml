@@ -59,10 +59,10 @@
     </key>
     <key code="-3" key_type="3" label="\?123"/>
     <key code="62" key_type="5" width="25.608%p"/>
-    <key label="……" key_type="0" width="10%p">
+    <key label="…" key_type="0" width="10%p">
       <toggle_state state_id="@string/toggle_en_sym2" label="…"/>
     </key>
-    <key code="63" key_type="1" width="10%p" label="密"/>
+    <key code="-110" key_type="1" width="10%p" label="密"/>
     <key id="1"/>
   </row>
 </keyboard>

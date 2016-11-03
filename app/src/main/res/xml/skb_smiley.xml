@@ -79,7 +79,7 @@
     <key code="62" key_type="5" width="25.608%p"/>
     <key label="。" icon="@drawable/period_full_icon" width="10%p"
       icon_popup="@drawable/period_full_popup_icon"/>
-    <key code="63" key_type="1" width="10%p" label="密"/>
+    <key code="-110" key_type="1" width="10%p" label="密"/>
     <key id="1"/>
   </row>
 </keyboard>

@@ -76,7 +76,7 @@
             label="。"
             width="10%p" />
 
-        <key code="63" width="10%p" key_type="1" label="密"/>
+        <key code="-110" width="10%p" key_type="1" label="密"/>
         <key id="1" />
     </row>
     <row
@@ -89,13 +89,12 @@
             code="62"
             key_type="5"
             width="25.608%p" />
-     <!--   <key id="7" width="10%p" />-->
         <key
             icon="@drawable/period_icon"
             icon_popup="@drawable/period_popup_icon"
             label="."
             width="10%p" />
-        <key code="63" width="10%p" key_type="1" label="密"/>
+        <key code="-110" width="10%p" key_type="1" label="密"/>
         <key id="1" />
     </row>
     <row

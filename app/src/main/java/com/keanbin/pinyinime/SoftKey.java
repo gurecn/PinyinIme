@@ -21,8 +21,7 @@ import android.graphics.drawable.Drawable;
 /**
  * Class for soft keys which defined in the keyboard xml file. A soft key can be
  * a basic key or a toggling key. 按键
- * 
- * @see com.android.inputmethod.pinyin.SoftKeyToggle
+ *
  */
 public class SoftKey {
 	protected static final int KEYMASK_REPEAT = 0x10000000;
@@ -62,7 +61,9 @@ public class SoftKey {
 	/** key的文本 */
 	protected String mKeyLabel;
 
-	/** key的code */
+	/** key的code
+	 * 	-2,切换键盘，-110，加密解密
+	 */
 	protected int mKeyCode;
 
 	/**
@@ -235,6 +236,18 @@ public class SoftKey {
 			return true;
 		return false;
 	}
+
+	/**
+	 * 是否是加解密的keycode
+	 *
+	 * @return
+	 */
+	public boolean isPasswordKey() {
+		if (mKeyCode == -110)
+			return true;
+		return false;
+	}
+
 
 	/**
 	 * 是否是字符按键
