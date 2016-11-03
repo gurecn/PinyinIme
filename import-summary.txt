@@ -1,0 +1,140 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* PinyinIme.iml
+* ic_launcher-web.png
+* out\
+* out\production\
+* out\production\PinyinIme\
+* out\production\PinyinIme\PinyinIme.apk
+* out\production\PinyinIme\PinyinIme.unaligned.apk
+* out\production\PinyinIme\com\
+* out\production\PinyinIme\com\keanbin\
+* out\production\PinyinIme\com\keanbin\pinyinime\
+* out\production\PinyinIme\com\keanbin\pinyinime\ArrowUpdater.class
+* out\production\PinyinIme\com\keanbin\pinyinime\BalloonHint$1.class
+* out\production\PinyinIme\com\keanbin\pinyinime\BalloonHint$BalloonTimer.class
+* out\production\PinyinIme\com\keanbin\pinyinime\BalloonHint$BalloonView.class
+* out\production\PinyinIme\com\keanbin\pinyinime\BalloonHint.class
+* out\production\PinyinIme\com\keanbin\pinyinime\BuildConfig.class
+* out\production\PinyinIme\com\keanbin\pinyinime\CandidateView$PressTimer.class
+* out\production\PinyinIme\com\keanbin\pinyinime\CandidateView.class
+* out\production\PinyinIme\com\keanbin\pinyinime\CandidateViewListener.class
+* out\production\PinyinIme\com\keanbin\pinyinime\CandidatesContainer.class
+* out\production\PinyinIme\com\keanbin\pinyinime\ComposingView$ComposingStatus.class
+* out\production\PinyinIme\com\keanbin\pinyinime\ComposingView.class
+* out\production\PinyinIme\com\keanbin\pinyinime\EnglishInputProcessor.class
+* out\production\PinyinIme\com\keanbin\pinyinime\Environment.class
+* out\production\PinyinIme\com\keanbin\pinyinime\IPinyinDecoderService$Stub$Proxy.class
+* out\production\PinyinIme\com\keanbin\pinyinime\IPinyinDecoderService$Stub.class
+* out\production\PinyinIme\com\keanbin\pinyinime\IPinyinDecoderService.aidl
+* out\production\PinyinIme\com\keanbin\pinyinime\IPinyinDecoderService.class
+* out\production\PinyinIme\com\keanbin\pinyinime\InputModeSwitcher$ToggleStates.class
+* out\production\PinyinIme\com\keanbin\pinyinime\InputModeSwitcher.class
+* out\production\PinyinIme\com\keanbin\pinyinime\KeyIconRecord.class
+* out\production\PinyinIme\com\keanbin\pinyinime\KeyMapDream.class
+* out\production\PinyinIme\com\keanbin\pinyinime\KeyRecord.class
+* out\production\PinyinIme\com\keanbin\pinyinime\MyReceiver.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinDecoderService$1.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinDecoderService.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$1.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$2.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$ChoiceNotifier.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$DecodingInfo.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$ImeState.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$OnGestureListener.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$PinyinDecoderServiceConnection.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME$PopupTimer.class
+* out\production\PinyinIme\com\keanbin\pinyinime\PinyinIME.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$attr.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$bool.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$color.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$dimen.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$drawable.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$id.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$layout.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$menu.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$raw.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$string.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$style.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R$xml.class
+* out\production\PinyinIme\com\keanbin\pinyinime\R.class
+* out\production\PinyinIme\com\keanbin\pinyinime\Settings.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SettingsActivity.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SkbContainer$LongPressTimer.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SkbContainer.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SkbPool.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SkbTemplate.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoftKey.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoftKeyToggle$ToggleState.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoftKeyToggle.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoftKeyType.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoftKeyboard$KeyRow.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoftKeyboard.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoftKeyboardView.class
+* out\production\PinyinIme\com\keanbin\pinyinime\SoundManager.class
+* out\production\PinyinIme\com\keanbin\pinyinime\XmlKeyboardLoader$KeyCommonAttributes.class
+* out\production\PinyinIme\com\keanbin\pinyinime\XmlKeyboardLoader.class
+* out\production\PinyinIme\com\keanbin\pinyinime\utils\
+* out\production\PinyinIme\com\keanbin\pinyinime\utils\LogUtil.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* jni\ => app\src\main\jni\
+* libs\armeabi\libjni_pinyinime.so => app\src\main\jniLibs\armeabi\libjni_pinyinime.so
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\keanbin\pinyinime\IPinyinDecoderService.aidl => app\src\main\aidl\com\keanbin\pinyinime\IPinyinDecoderService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

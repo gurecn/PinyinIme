@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "com.keanbin.pinyinime"
+        minSdkVersion 18
+        targetSdkVersion 23
+
+        ndk {
+            moduleName "libjni_pinyinime"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    compile 'com.android.support:support-v4:18.0.0'
+}
